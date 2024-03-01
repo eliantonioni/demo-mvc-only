@@ -15,7 +15,7 @@ public class HelloController {
     @GetMapping("/say-hello")
     public String helloEndpoint() {
         int called = counter.incrementAndGet();
-        log.info("CALLED say-hello {} times", called);
+        log.info("CALLED say-hello {} times, viola", called);
         return "HELLO, HOWDY " + called;
     }
 
