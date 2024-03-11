@@ -30,3 +30,5 @@ sam local start-api
 ### next step - deploy to aws (don't forget to do aws configure sso, export profile)
 sam deploy --guided
 ### to check on aws - go to URL outputted by sam in console
+### to cleanup afterwards
+sam delete
