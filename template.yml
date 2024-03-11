@@ -13,6 +13,8 @@ Resources:
       Runtime: java21
       CodeUri: .
       MemorySize: 512
+      SnapStart:
+        ApplyOn: "PublishedVersions"
       Policies: AWSLambdaBasicExecutionRole
       Timeout: 30
       Events:
